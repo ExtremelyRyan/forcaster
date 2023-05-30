@@ -1,7 +1,12 @@
 use dotenv::dotenv;
 use std::env; 
+use reqwest;
+#[tokio::main]
+async fn main() ->  Result<(), Box<dyn std::error::Error>>{ 
 
-fn main() ->  Result<(), Box<dyn std::error::Error>>{ 
+    const LAT: f64 = 33.236228;
+    const LON: f64 = -96.80111;
+
 
     let api_key = match get_env("API_KEY") {
         None => panic!("failed to find API_KEY"),
@@ -9,16 +14,18 @@ fn main() ->  Result<(), Box<dyn std::error::Error>>{
     };
     // println!("{:?}", api_key );
 
-    let site = format!("http://api.weatherstack.com/current\
+    let weatherstack = format!("http://api.weatherstack.com/current\
     ?access_key={api_key}\
     &query=75078\
     &forecast_days=1\
     &hourly=1");
 
-    println!("{}\n\n", site);
+    let openweather = format!("api.openweathermap.org/data/2.5/forecast?lat={LAT}&lon={LON}&appid={api_key}");
+
+    println!("{}\n\n", openweather);
 
 
-    let body = reqwest::blocking::get(site)?;
+    let body = reqwest::get(openweather).await?;
     println!("body = {:?}", body);
 
     Ok(())
