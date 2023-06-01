@@ -1,1505 +1,1434 @@
-{
-    "cod": "200",
-    "message": 0,
-    "cnt": 40,
-    "list": [
-        {
-            "dt": 1685480400,
-            "main": {
-                "temp": 300.69,
-                "feels_like": 303.06,
-                "temp_min": 297.98,
-                "temp_max": 300.69,
-                "pressure": 1013,
-                "sea_level": 1013,
-                "grnd_level": 988,
-                "humidity": 71,
-                "temp_kf": 2.71
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
-                }
-            ],
-            "clouds": {
-                "all": 96
-            },
-            "wind": {
-                "speed": 3.3,
-                "deg": 75,
-                "gust": 3.73
-            },
-            "visibility": 10000,
-            "pop": 0.79,
-            "rain": {
-                "3h": 0.68
-            },
-            "sys": {
-                "pod": "d"
-            },
-            "dt_txt": "2023-05-30 21:00:00"
+Object {
+    "city": Object {
+        "coord": Object {
+            "lat": Number(33.2362),
+            "lon": Number(-96.8011)
         },
-        {
-            "dt": 1685491200,
-            "main": {
-                "temp": 298.46,
-                "feels_like": 299.03,
-                "temp_min": 296.66,
-                "temp_max": 298.46,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 76,
-                "temp_kf": 1.8
+        "country": 
+String("US"),
+        "id": Number(4720833),
+        "name": String("Prosper"),
+        "population": Number(9423),
+        "sunrise": Number(1685531968),
+        "sunset": Number(1685583037),
+        "timezone": Number(-18000)
+    },
+    "cnt": Number(40),
+    "cod": String("200"),
+    "list": Array [Object {
+            "clouds": Object {
+                "all": Number(0)
             },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "dt": Number(1685534400),
+            "dt_txt": String("2023-05-31 12:00:00"),
+            "main": Object {
+                "feels_like": Number(292.64),
+                "grnd_level": Number(989),
+                "humidity": Number(87),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(292.39),
+                "temp_kf": Number(0.11),
+                "temp_max": Number(292.39),
+                "temp_min": Number(292.28)
+            },
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
+            },
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01d"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 95
+            "wind": Object {
+                "deg": Number(161),
+                "gust": Number(2.21),
+                "speed": Number(2.13)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(0)
             },
-            "wind": {
-                "speed": 3.48,
-                "deg": 199,
-                "gust": 5.02
+            "dt": Number(1685545200),
+            "dt_txt": String("2023-05-31 15:00:00"),
+            "main": Object {
+                "feels_like": Number(294.44),
+                "grnd_level": Number(990),
+                "humidity": Number(81),
+                "pressure": Number(1013),
+                "sea_level": Number(1013),
+                "temp": Number(294.17),
+                "temp_kf": Number(-3.56),
+                "temp_max": Number(297.73),
+                "temp_min": Number(294.17)
             },
-            "visibility": 10000,
-            "pop": 0.84,
-            "rain": {
-                "3h": 0.65
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "sys": {
-                "pod": "d"
-            },
-            "dt_txt": "2023-05-31 00:00:00"
-        },
-        {
-            "dt": 1685502000,
-            "main": {
-                "temp": 292.83,
-                "feels_like": 292.86,
-                "temp_min": 292.83,
-                "temp_max": 292.83,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 987,
-                "humidity": 77,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01d"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 60
+            "wind": Object {
+                "deg": Number(141),
+                "gust": Number(5.06),
+                "speed": Number(4.2)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(0)
             },
-            "wind": {
-                "speed": 2.29,
-                "deg": 181,
-                "gust": 2.5
+            "dt": Number(1685556000),
+            "dt_txt": String("2023-05-31 18:00:00"),
+            "main": Object {
+                "feels_like": Number(298.68),
+                "grnd_level": Number(989),
+                "humidity": Number(65),
+                "pressure": Number(1013),
+                "sea_level": Number(1013),
+                "temp": Number(298.4),
+                "temp_kf": Number(-3.01),
+                "temp_max": Number(301.41),
+                "temp_min": Number(298.4)
             },
-            "visibility": 10000,
-            "pop": 0.37,
-            "rain": {
-                "3h": 0.15
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "sys": {
-                "pod": "n"
-            },
-            "dt_txt": "2023-05-31 03:00:00"
-        },
-        {
-            "dt": 1685512800,
-            "main": {
-                "temp": 292.53,
-                "feels_like": 292.59,
-                "temp_min": 292.53,
-                "temp_max": 292.53,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 987,
-                "humidity": 79,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01d"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 30
+            "wind": Object {
+                "deg": Number(154),
+                "gust": Number(4.88),
+                "speed": Number(4.26)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(0)
             },
-            "wind": {
-                "speed": 0.95,
-                "deg": 113,
-                "gust": 1.09
+            "dt": Number(1685566800),
+            "dt_txt": String("2023-05-31 21:00:00"),
+            "main": Object {
+                "feels_like": Number(303.33),
+                "grnd_level": Number(987),
+                "humidity": Number(48),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(302.74),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.74),
+                "temp_min": Number(302.74)
             },
-            "visibility": 10000,
-            "pop": 0.28,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-05-31 06:00:00"
-        },
-        {
-            "dt": 1685523600,
-            "main": {
-                "temp": 292.58,
-                "feels_like": 292.77,
-                "temp_min": 292.58,
-                "temp_max": 292.58,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 84,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01d"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 0
+            "wind": Object {
+                "deg": Number(142),
+                "gust": Number(5),
+                "speed": Number(4.83)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(2)
             },
-            "wind": {
-                "speed": 2.7,
-                "deg": 149,
-                "gust": 2.79
+            "dt": Number(1685577600),
+            "dt_txt": String("2023-06-01 00:00:00"),
+            "main": Object {
+                "feels_like": Number(301.77),
+                "grnd_level": Number(986),
+                "humidity": Number(59),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp":  Number(300.63),
+                "temp_kf": Number(0),
+                "temp_max": Number(300.63),
+                "temp_min": Number(300.63)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-05-31 09:00:00"
-        },
-        {
-            "dt": 1685534400,
-            "main": {
-                "temp": 292.51,
-                "feels_like": 292.88,
-                "temp_min": 292.51,
-                "temp_max": 292.51,
-                "pressure": 1013,
-                "sea_level": 1013,
-                "grnd_level": 988,
-                "humidity": 91,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01d"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 1
+            "wind": Object {
+                "deg": Number(135),
+                "gust": Number(7.49),
+                "speed": Number(5)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(0)
             },
-            "wind": {
-                "speed": 2.57,
-                "deg": 134,
-                "gust": 3.08
+            "dt": Number(1685588400),
+            "dt_txt": String("2023-06-01 03:00:00"),
+            "main": Object {
+                "feels_like": Number(296.52),
+                "grnd_level": Number(986),
+                "humidity": Number(72),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp": Number(296.27),
+                "temp_kf": Number(0),
+                "temp_max": Number(296.27),
+                "temp_min": Number(296.27)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-05-31 12:00:00"
-        },
-        {
-            "dt": 1685545200,
-            "main": {
-                "temp": 297.88,
-                "feels_like": 298.21,
-                "temp_min": 297.88,
-                "temp_max": 297.88,
-                "pressure": 1013,
-                "sea_level": 1013,
-                "grnd_level": 989,
-                "humidity": 69,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("clear sky"),
+                    "icon": String("01n"),
+                    "id": Number(800),
+                    "main": String("Clear")
                 }
             ],
-            "clouds": {
-                "all": 25
+            "wind": Object {
+                "deg": Number(136),
+                "gust": Number(8.29),
+                "speed": Number(4.36)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(21)
             },
-            "wind": {
-                "speed": 2.85,
-                "deg": 150,
-                "gust": 3.66
+            "dt": Number(1685599200),
+            "dt_txt": String("2023-06-01 06:00:00"),
+            "main": Object {
+                "feels_like": Number(295.1),
+                "grnd_level": Number(987),
+                "humidity": Number(75),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(294.91),
+                "temp_kf": Number(0),
+                "temp_max": Number(294.91),
+                "temp_min": Number(294.91)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-05-31 15:00:00"
-        },
-        {
-            "dt": 1685556000,
-            "main": {
-                "temp": 301.84,
-                "feels_like": 302.64,
-                "temp_min": 301.84,
-                "temp_max": 301.84,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 989,
-                "humidity": 52,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("few clouds"),
+                    "icon": String("02n"),
+                    "id": Number(801),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 12
+            "wind": Object {
+                "deg": Number(135),
+                "gust": Number(4.86),
+                "speed": Number(3.34)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(17)
             },
-            "wind": {
-                "speed": 4.65,
-                "deg": 162,
-                "gust": 5.31
+            "dt": Number(1685610000),
+            "dt_txt": String("2023-06-01 09:00:00"),
+            "main": Object {
+                "feels_like": Number(294.12),
+                "grnd_level": Number(986),
+                "humidity": Number(74),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(294.04),
+                "temp_kf": Number(0),
+                "temp_max": Number(294.04),
+                "temp_min": Number(294.04)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-05-31 18:00:00"
-        },
-        {
-            "dt": 1685566800,
-            "main": {
-                "temp": 303.12,
-                "feels_like": 303.71,
-                "temp_min": 303.12,
-                "temp_max": 303.12,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 47,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("few clouds"),
+                    "icon": String("02n"),
+                    "id": Number(801),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 4
+            "wind": Object {
+                "deg": Number(131),
+                "gust": Number(6.14),
+                "speed": Number(3.75)
+            }
+        }, Object {
+            "clouds": 
+Object {
+                "all": Number(39)
             },
-            "wind": {
-                "speed": 4.55,
-                "deg": 141,
-                "gust": 4.68
+            "dt": Number(1685620800),
+            "dt_txt": String("2023-06-01 12:00:00"),
+            "main": Object {
+                "feels_like": Number(293.24),
+                "grnd_level": Number(987),
+                "humidity": Number(82),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(293.05),
+                "temp_kf": Number(0),
+                "temp_max": Number(293.05),
+                "temp_min": Number(293.05)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-05-31 21:00:00"
-        },
-        {
-            "dt": 1685577600,
-            "main": {
-                "temp": 300.21,
-                "feels_like": 301.38,
-                "temp_min": 300.21,
-                "temp_max": 300.21,
-                "pressure": 1009,
-                "sea_level": 1009,
-                "grnd_level": 986,
-                "humidity": 61,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("scattered clouds"),
+                    "icon": String("03d"),
+                    "id": Number(802),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 25
+            "wind": Object {
+                "deg": Number(138),
+                "gust": Number(4.93),
+                "speed": Number(2.94)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(34)
             },
-            "wind": {
-                "speed": 4.48,
-                "deg": 124,
-                "gust": 7.46
+            "dt": Number(1685631600),
+            "dt_txt": String("2023-06-01 15:00:00"),
+            "main": Object {
+                "feels_like": Number(299.32),
+                "grnd_level": Number(989),
+                "humidity": Number(67),
+                "pressure": Number(1013),
+                "sea_level": Number(1013),
+                "temp": Number(298.94),
+                "temp_kf": Number(0),
+                "temp_max": Number(298.94),
+                "temp_min": Number(298.94)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-01 00:00:00"
-        },
-        {
-            "dt": 1685588400,
-            "main": {
-                "temp": 296.78,
-                "feels_like": 297.03,
-                "temp_min": 296.78,
-                "temp_max": 296.78,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 70,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("scattered clouds"),
+                    "icon": String("03d"),
+                    "id": Number(802),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 28
+            "wind": Object {
+                "deg": Number(170),
+                "gust": Number(3.69),
+                "speed": 
+Number(2.84)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(53)
             },
-            "wind": {
-                "speed": 4.39,
-                "deg": 124,
-                "gust": 8.45
+            "dt": Number(1685642400),
+            "dt_txt": String("2023-06-01 18:00:00"),
+            "main": Object {
+                "feels_like": Number(303.05),
+                "grnd_level": Number(989),
+                "humidity": Number(48),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(302.53),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.53),
+                "temp_min": Number(302.53)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.26),
+            "rain": Object {
+                "3h": Number(0.51)
             },
-            "dt_txt": "2023-06-01 03:00:00"
-        },
-        {
-            "dt": 1685599200,
-            "main": {
-                "temp": 295.23,
-                "feels_like": 295.5,
-                "temp_min": 295.23,
-                "temp_max": 295.23,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 77,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("d")
             },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 34
+            "wind": Object {
+                "deg": Number(145),
+                "gust": Number(4.15),
+                "speed": Number(3.68)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(86)
             },
-            "wind": {
-                "speed": 3.32,
-                "deg": 152,
-                "gust": 6.53
+            "dt": Number(1685653200),
+            "dt_txt": String("2023-06-01 21:00:00"),
+            "main": Object {
+                "feels_like": Number(301.47),
+                "grnd_level": Number(987),
+                "humidity": Number(59),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(300.4),
+                "temp_kf": Number(0),
+                "temp_max": Number(300.4),
+                "temp_min": Number(300.4)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-01 06:00:00"
-        },
-        {
-            "dt": 1685610000,
-            "main": {
-                "temp": 294.34,
-                "feels_like": 294.66,
-                "temp_min": 294.34,
-                "temp_max": 294.34,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 82,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04d"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 71
+            "wind": Object {
+                "deg": Number(175),
+                "gust": Number(5.3),
+                "speed": Number(3.25)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(93)
             },
-            "wind": {
-                "speed": 3.13,
-                "deg": 148,
-                "gust": 4.09
+            "dt": Number(1685664000),
+            "dt_txt": String("2023-06-02 00:00:00"),
+            "main": Object {
+                "feels_like": Number(299.14),
+                "grnd_level": Number(987),
+                "humidity": Number(67),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(298.77),
+                "temp_kf": Number(0),
+                "temp_max": Number(298.77),
+                "temp_min": Number(298.77)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-01 09:00:00"
-        },
-        {
-            "dt": 1685620800,
-            "main": {
-                "temp": 293.46,
-                "feels_like": 293.77,
-                "temp_min": 293.46,
-                "temp_max": 293.46,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 987,
-                "humidity": 85,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04d"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 38
+            "wind": Object {
+                "deg": Number(160),
+                "gust": Number(4.4),
+                "speed": Number(2.94)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(100)
             },
-            "wind": {
-                "speed": 3.02,
-                "deg": 139,
-                "gust": 4.8
+            "dt": Number(1685674800),
+            "dt_txt": String("2023-06-02 03:00:00"),
+            "main": Object {
+                "feels_like": Number(298.09),
+                "grnd_level": Number(988),
+                "humidity": Number(65),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(297.87),
+                "temp_kf": Number(0),
+                "temp_max": Number(297.87),
+                "temp_min": Number(297.87)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-01 12:00:00"
-        },
-        {
-            "dt": 1685631600,
-            "main": {
-                "temp": 298.97,
-                "feels_like": 299.33,
-                "temp_min": 298.97,
-                "temp_max": 298.97,
-                "pressure": 1013,
-                "sea_level": 1013,
-                "grnd_level": 989,
-                "humidity": 66,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04n"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 61
+            "wind": Object {
+                "deg": Number(145),
+                "gust": Number(3.83),
+                "speed": Number(2.94)
+            }
+        }, 
+Object {
+            "clouds": Object {
+                "all": Number(95)
             },
-            "wind": {
-                "speed": 3.2,
-                "deg": 171,
-                "gust": 4.29
+            "dt": Number(1685685600),
+            "dt_txt": String("2023-06-02 06:00:00"),
+            "main": Object {
+                "feels_like": Number(296.74),
+                "grnd_level": Number(988),
+                "humidity": Number(71),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(296.5),
+                "temp_kf": Number(0),
+                "temp_max": Number(296.5),
+                "temp_min": Number(296.5)
             },
-            "visibility": 10000,
-            "pop": 0.08,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-01 15:00:00"
-        },
-        {
-            "dt": 1685642400,
-            "main": {
-                "temp": 302.68,
-                "feels_like": 303.12,
-                "temp_min": 302.68,
-                "temp_max": 302.68,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 47,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04n"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 41
+            "wind": Object {
+                "deg": Number(130),
+                "gust": Number(6.79),
+                "speed": Number(4.13)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(11)
             },
-            "wind": {
-                "speed": 4.7,
-                "deg": 147,
-                "gust": 5.48
+            "dt": Number(1685696400),
+            "dt_txt": String("2023-06-02 09:00:00"),
+            "main": Object {
+                "feels_like": Number(294.73),
+                "grnd_level": Number(987),
+                "humidity": Number(78),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(294.5),
+                "temp_kf": Number(0),
+                "temp_max": Number(294.5),
+                "temp_min": Number(294.5)
             },
-            "visibility": 10000,
-            "pop": 0.59,
-            "rain": {
-                "3h": 0.96
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("n")
             },
-            "sys": {
-                "pod": "d"
-            },
-            "dt_txt": "2023-06-01 18:00:00"
-        },
-        {
-            "dt": 1685653200,
-            "main": {
-                "temp": 302.46,
-                "feels_like": 302.96,
-                "temp_min": 302.46,
-                "temp_max": 302.46,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 987,
-                "humidity": 48,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("few clouds"),
+                    "icon": String("02n"),
+                    "id": Number(801),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 54
+            "wind": Object {
+                "deg": Number(129),
+                "gust": Number(5.07),
+                "speed": Number(3.33)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(12)
             },
-            "wind": {
-                "speed": 4.43,
-                "deg": 148,
-                "gust": 5.08
+            "dt": Number(1685707200),
+            "dt_txt": String("2023-06-02 12:00:00"),
+            "main": Object {
+                "feels_like": Number(293.9),
+                "grnd_level": Number(988),
+                "humidity": 
+Number(83),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(293.63),
+                "temp_kf": Number(0),
+                "temp_max": Number(293.63),
+                "temp_min": Number(293.63)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-01 21:00:00"
-        },
-        {
-            "dt": 1685664000,
-            "main": {
-                "temp": 299.31,
-                "feels_like": 299.31,
-                "temp_min": 299.31,
-                "temp_max": 299.31,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 987,
-                "humidity": 62,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("few clouds"),
+                    "icon": String("02d"),
+                    "id": Number(801),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 75
+            "wind": Object {
+                "deg": Number(140),
+                "gust": Number(5.54),
+                "speed": Number(2.97)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(66)
             },
-            "wind": {
-                "speed": 3.35,
-                "deg": 178,
-                "gust": 6.11
+            "dt": Number(1685718000),
+            "dt_txt": String("2023-06-02 15:00:00"),
+            "main": Object {
+                "feels_like": Number(299.21),
+                "grnd_level": Number(989),
+                "humidity": Number(64),
+                "pressure": Number(1013),
+                "sea_level": Number(1013),
+                "temp": Number(299.21),
+                "temp_kf": Number(0),
+                "temp_max": Number(299.21),
+                "temp_min": Number(299.21)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-02 00:00:00"
-        },
-        {
-            "dt": 1685674800,
-            "main": {
-                "temp": 298.13,
-                "feels_like": 298.3,
-                "temp_min": 298.13,
-                "temp_max": 298.13,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 62,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("broken clouds"),
+                    "icon": String("04d"),
+                    "id": Number(803),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(149),
+                "gust": Number(4.93),
+                "speed": Number(3.68)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(83)
             },
-            "wind": {
-                "speed": 3.09,
-                "deg": 130,
-                "gust": 4.21
+            "dt": Number(1685728800),
+            "dt_txt": String("2023-06-02 18:00:00"),
+            "main": Object {
+                "feels_like": Number(302.95),
+                "grnd_level": 
+Number(989),
+                "humidity": Number(52),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(302.07),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.07),
+                "temp_min": Number(302.07)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.64),
+            "rain": Object {
+                "3h": Number(0.88)
             },
-            "dt_txt": "2023-06-02 03:00:00"
-        },
-        {
-            "dt": 1685685600,
-            "main": {
-                "temp": 296.01,
-                "feels_like": 296.23,
-                "temp_min": 296.01,
-                "temp_max": 296.01,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 72,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("d")
             },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+            "visibility": Number(10000),
+            "weather": 
+Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 89
+            "wind": Object {
+                "deg": Number(146),
+                "gust": Number(5.02),
+                "speed": Number(3.88)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(87)
             },
-            "wind": {
-                "speed": 3.36,
-                "deg": 123,
-                "gust": 4.67
+            "dt": Number(1685739600),
+            "dt_txt": String("2023-06-02 21:00:00"),
+            "main": Object {
+                "feels_like": Number(302.94),
+                "grnd_level": Number(987),
+                "humidity": Number(53),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(301.97),
+                "temp_kf": Number(0),
+                "temp_max": Number(301.97),
+                "temp_min": Number(301.97)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.44),
+            "rain": Object {
+                "3h": Number(0.17)
             },
-            "dt_txt": "2023-06-02 06:00:00"
-        },
-        {
-            "dt": 1685696400,
-            "main": {
-                "temp": 294.25,
-                "feels_like": 294.43,
-                "temp_min": 294.25,
-                "temp_max": 294.25,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 77,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("d")
             },
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": 
+String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 14
+            "wind": Object {
+                "deg": Number(154),
+                "gust": Number(4.57),
+                "speed": Number(4.12)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(77)
             },
-            "wind": {
-                "speed": 3.84,
-                "deg": 116,
-                "gust": 7.59
+            "dt": Number(1685750400),
+            "dt_txt": String("2023-06-03 00:00:00"),
+            "main": Object {
+                "feels_like": Number(299.26),
+                "grnd_level": Number(986),
+                "humidity": Number(66),
+                "pressure": Number(1009),
+                "sea_level": Number(1009),
+                "temp": Number(299.26),
+                "temp_kf": Number(0),
+                "temp_max": Number(299.26),
+                "temp_min": Number(299.26)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.28),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-02 09:00:00"
-        },
-        {
-            "dt": 1685707200,
-            "main": {
-                "temp": 293.23,
-                "feels_like": 293.41,
-                "temp_min": 293.23,
-                "temp_max": 293.23,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 81,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("broken clouds"),
+                    "icon": String("04d"),
+                    "id": Number(803),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 17
+            "wind": Object {
+                "deg": Number(178),
+                "gust": Number(6.86),
+                "speed": Number(3.6)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(77)
             },
-            "wind": {
-                "speed": 3.77,
-                "deg": 123,
-                "gust": 8.62
+            "dt": Number(1685761200),
+            "dt_txt": String("2023-06-03 03:00:00"),
+            "main": Object {
+                "feels_like": Number(297.16),
+                "grnd_level": Number(986),
+                "humidity": Number(73),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp": Number(296.83),
+                "temp_kf": Number(0),
+                "temp_max": Number(296.83),
+                "temp_min": Number(296.83)
             },
-            "visibility": 10000,
-            "pop": 0.13,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0.19),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-02 12:00:00"
-        },
-        {
-            "dt": 1685718000,
-            "main": {
-                "temp": 298.66,
-                "feels_like": 298.99,
-                "temp_min": 298.66,
-                "temp_max": 298.66,
-                "pressure": 1013,
-                "sea_level": 1013,
-                "grnd_level": 989,
-                "humidity": 66,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("broken clouds"),
+                    "icon": String("04n"),
+                    "id": Number(803),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 55
+            "wind": Object {
+                "deg": Number(125),
+                "gust": Number(7.43),
+                "speed": Number(4.1)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(81)
             },
-            "wind": {
-                "speed": 5.33,
-                "deg": 138,
-                "gust": 6.91
+            "dt": Number(1685772000),
+            "dt_txt": String("2023-06-03 06:00:00"),
+            "main": Object {
+                "feels_like": Number(295.88),
+                "grnd_level": Number(986),
+                "humidity": Number(74),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(295.64),
+                "temp_kf": Number(0),
+                "temp_max": Number(295.64),
+                "temp_min": Number(295.64)
             },
-            "visibility": 10000,
-            "pop": 0.05,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0.08),
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-02 15:00:00"
-        },
-        {
-            "dt": 1685728800,
-            "main": {
-                "temp": 302.17,
-                "feels_like": 303.09,
-                "temp_min": 302.17,
-                "temp_max": 302.17,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 989,
-                "humidity": 52,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("broken clouds"),
+                    "icon": String("04n"),
+                    "id": Number(803),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 52
+            "wind": Object {
+                "deg": Number(115),
+                "gust": Number(8.57),
+                "speed": Number(4.05)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(100)
             },
-            "wind": {
-                "speed": 5.03,
-                "deg": 136,
-                "gust": 5.45
+            "dt": Number(1685782800),
+            "dt_txt": String("2023-06-03 09:00:00"),
+            "main": Object {
+                "feels_like": Number(291.62),
+                "grnd_level": Number(988),
+                "humidity": Number(92),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(291.34),
+                "temp_kf": Number(0),
+                "temp_max": Number(291.34),
+                "temp_min": Number(291.34)
             },
-            "visibility": 10000,
-            "pop": 0.08,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0.84),
+            "rain": Object {
+                "3h": Number(2.93)
             },
-            "dt_txt": "2023-06-02 18:00:00"
-        },
-        {
-            "dt": 1685739600,
-            "main": {
-                "temp": 303.31,
-                "feels_like": 303.97,
-                "temp_min": 303.31,
-                "temp_max": 303.31,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 47,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("n")
             },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(7651),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 59
+            "wind": Object {
+                "deg": Number(294),
+                "gust": Number(10.15),
+                "speed": Number(5.26)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(100)
             },
-            "wind": {
-                "speed": 5.61,
-                "deg": 129,
-                "gust": 5.41
+            "dt": Number(1685793600),
+            "dt_txt": String("2023-06-03 12:00:00"),
+            "main": Object {
+                "feels_like": Number(293.39),
+                "grnd_level": Number(986),
+                "humidity": Number(85),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(293.12),
+                "temp_kf": Number(0),
+                "temp_max": Number(293.12),
+                "temp_min": Number(293.12)
             },
-            "visibility": 10000,
-            "pop": 0.04,
-            "sys": {
-                "pod": "d"
+            "pop": Number(1),
+            "rain": Object {
+                "3h": Number(1.94)
             },
-            "dt_txt": "2023-06-02 21:00:00"
-        },
-        {
-            "dt": 1685750400,
-            "main": {
-                "temp": 300.42,
-                "feels_like": 301.42,
-                "temp_min": 300.42,
-                "temp_max": 300.42,
-                "pressure": 1008,
-                "sea_level": 1008,
-                "grnd_level": 985,
-                "humidity": 58,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("d")
             },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 70
+            "wind": Object {
+                "deg": Number(304),
+                "gust": Number(2.55),
+                "speed": Number(2.02)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(55)
             },
-            "wind": {
-                "speed": 5.3,
-                "deg": 123,
-                "gust": 8.14
+            "dt": Number(1685804400),
+            "dt_txt": String("2023-06-03 15:00:00"),
+            "main": Object {
+                "feels_like": Number(298.55),
+                "grnd_level": Number(988),
+                "humidity": Number(64),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(298.31),
+                "temp_kf": Number(0),
+                "temp_max": Number(298.31),
+                "temp_min": Number(298.31)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0.31),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-03 00:00:00"
-        },
-        {
-            "dt": 1685761200,
-            "main": {
-                "temp": 297.41,
-                "feels_like": 297.69,
-                "temp_min": 297.41,
-                "temp_max": 297.41,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 69,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("broken clouds"),
+                    "icon": String("04d"),
+                    "id": Number(803),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 92
+            "wind": Object {
+                "deg": Number(345),
+                "gust": Number(0.81),
+                "speed": Number(0.47)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(39)
             },
-            "wind": {
-                "speed": 4.5,
-                "deg": 126,
-                "gust": 9.36
+            "dt": Number(1685815200),
+            "dt_txt": String("2023-06-03 18:00:00"),
+            "main": Object {
+                "feels_like": Number(303.05),
+                "grnd_level": Number(988),
+                "humidity": Number(52),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(302.14),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.14),
+                "temp_min": Number(302.14)
             },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.3),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-03 03:00:00"
-        },
-        {
-            "dt": 1685772000,
-            "main": {
-                "temp": 295.99,
-                "feels_like": 296.29,
-                "temp_min": 295.99,
-                "temp_max": 295.99,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 75,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("scattered clouds"),
+                    "icon": String("03d"),
+                    "id": Number(802),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 96
+            "wind": Object {
+                "deg": Number(208),
+                "gust": Number(1.78),
+                "speed": Number(1.17)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(26)
             },
-            "wind": {
-                "speed": 4.97,
-                "deg": 129,
-                "gust": 10.63
+            "dt": Number(1685826000),
+            "dt_txt": String("2023-06-03 21:00:00"),
+            "main": Object {
+                "feels_like": Number(304.54),
+                "grnd_level": Number(987),
+                "humidity": Number(47),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp": Number(303.71),
+                "temp_kf": Number(0),
+                "temp_max": Number(303.71),
+                "temp_min": Number(303.71)
             },
-            "visibility": 10000,
-            "pop": 0.2,
-            "sys": {
-                "pod": "n"
+            "pop": Number(0.19),
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-03 06:00:00"
-        },
-        {
-            "dt": 1685782800,
-            "main": {
-                "temp": 294.81,
-                "feels_like": 295.15,
-                "temp_min": 294.81,
-                "temp_max": 294.81,
-                "pressure": 1009,
-                "sea_level": 1009,
-                "grnd_level": 985,
-                "humidity": 81,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("scattered clouds"),
+                    "icon": String("03d"),
+                    "id": Number(802),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(219),
+                "gust": Number(1.77),
+                "speed": Number(1.78)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(32)
             },
-            "wind": {
-                "speed": 3.57,
-                "deg": 165,
-                "gust": 9.83
+            "dt": Number(1685836800),
+            "dt_txt": String("2023-06-04 00:00:00"),
+            "main": Object {
+                "feels_like": Number(304.11),
+                "grnd_level": Number(985),
+                "humidity": Number(54),
+                "pressure": Number(1008),
+                "sea_level": Number(1008),
+                "temp": Number(302.68),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.68),
+                "temp_min": Number(302.68)
             },
-            "visibility": 6719,
-            "pop": 0.65,
-            "rain": {
-                "3h": 1.61
+            "pop": Number(0.31),
+            "rain": Object {
+                "3h": Number(0.11)
             },
-            "sys": {
-                "pod": "n"
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-03 09:00:00"
-        },
-        {
-            "dt": 1685793600,
-            "main": {
-                "temp": 293.14,
-                "feels_like": 293.62,
-                "temp_min": 293.14,
-                "temp_max": 293.14,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 93,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 501,
-                    "main": "Rain",
-                    "description": "moderate rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(99),
+                "gust": Number(2.3),
+                "speed": Number(2.11)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(18)
             },
-            "wind": {
-                "speed": 1.2,
-                "deg": 104,
-                "gust": 2.57
+            "dt": Number(1685847600),
+            "dt_txt": String("2023-06-04 03:00:00"),
+            "main": Object {
+                "feels_like": Number(297.74),
+                "grnd_level": Number(986),
+                "humidity": Number(70),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp": Number(297.43),
+                "temp_kf": Number(0),
+                "temp_max": Number(297.43),
+                "temp_min": Number(297.43)
             },
-            "visibility": 10000,
-            "pop": 1,
-            "rain": {
-                "3h": 4.68
+            "pop": Number(0.58),
+            "rain": Object {
+                "3h": Number(0.15)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-03 12:00:00"
-        },
-        {
-            "dt": 1685804400,
-            "main": {
-                "temp": 296.8,
-                "feels_like": 297.28,
-                "temp_min": 296.8,
-                "temp_max": 296.8,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 79,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(128),
+                "gust": Number(6.65),
+                "speed": Number(3.68)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(54)
             },
-            "wind": {
-                "speed": 0.87,
-                "deg": 275,
-                "gust": 1.67
+            "dt": Number(1685858400),
+            "dt_txt": String("2023-06-04 06:00:00"),
+            "main": Object {
+                "feels_like": Number(293.53),
+                "grnd_level": Number(988),
+                "humidity": Number(87),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(293.2),
+                "temp_kf": Number(0),
+                "temp_max": Number(293.2),
+                "temp_min": Number(293.2)
             },
-            "visibility": 9446,
-            "pop": 0.93,
-            "rain": {
-                "3h": 2.61
+            "pop": Number(1),
+            "rain": Object {
+                "3h": Number(2.43)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-03 15:00:00"
-        },
-        {
-            "dt": 1685815200,
-            "main": {
-                "temp": 301.11,
-                "feels_like": 302.43,
-                "temp_min": 301.11,
-                "temp_max": 301.11,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 59,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 501,
-                    "main": "Rain",
-                    "description": "moderate rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 91
+            "wind": Object {
+                "deg": Number(128),
+                "gust": Number(6.66),
+                "speed": Number(3.18)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(98)
             },
-            "wind": {
-                "speed": 2.45,
-                "deg": 219,
-                "gust": 3.6
+            "dt": Number(1685869200),
+            "dt_txt": String("2023-06-04 09:00:00"),
+            "main": Object {
+                "feels_like": Number(293.27),
+                "grnd_level": Number(987),
+                "humidity": Number(93),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(292.82),
+                "temp_kf": Number(0),
+                "temp_max": Number(292.82),
+                "temp_min": Number(292.82)
             },
-            "visibility": 10000,
-            "pop": 0.99,
-            "rain": {
-                "3h": 3.12
+            "pop": Number(0.97),
+            "rain": Object {
+                "3h": Number(3.42)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-03 18:00:00"
-        },
-        {
-            "dt": 1685826000,
-            "main": {
-                "temp": 302.75,
-                "feels_like": 304.07,
-                "temp_min": 302.75,
-                "temp_max": 302.75,
-                "pressure": 1009,
-                "sea_level": 1009,
-                "grnd_level": 986,
-                "humidity": 53,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("moderate rain"),
+                    "icon": String("10n"),
+                    "id": Number(501),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 48
+            "wind": Object {
+                "deg": Number(273),
+                "gust": Number(3.49),
+                "speed": Number(0.98)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(99)
             },
-            "wind": {
-                "speed": 1.15,
-                "deg": 224,
-                "gust": 2.93
+            "dt": Number(1685880000),
+            "dt_txt": String("2023-06-04 12:00:00"),
+            "main": Object {
+                "feels_like": Number(292.95),
+                "grnd_level": Number(987),
+                "humidity": Number(93),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(292.53),
+                "temp_kf": Number(0),
+                "temp_max": Number(292.53),
+                "temp_min": Number(292.53)
             },
-            "visibility": 10000,
-            "pop": 0.77,
-            "rain": {
-                "3h": 2.15
+            "pop": Number(1),
+            "rain": Object {
+                "3h": Number(3.76)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-03 21:00:00"
-        },
-        {
-            "dt": 1685836800,
-            "main": {
-                "temp": 299.79,
-                "feels_like": 299.79,
-                "temp_min": 299.79,
-                "temp_max": 299.79,
-                "pressure": 1009,
-                "sea_level": 1009,
-                "grnd_level": 985,
-                "humidity": 69,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("moderate rain"),
+                    "icon": String("10d"),
+                    "id": Number(501),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 69
+            "wind": Object {
+                "deg": Number(26),
+                "gust": 
+Number(5.36),
+                "speed": Number(3.35)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(99)
             },
-            "wind": {
-                "speed": 1.95,
-                "deg": 25,
-                "gust": 2.22
+            "dt": Number(1685890800),
+            "dt_txt": String("2023-06-04 15:00:00"),
+            "main": Object {
+                "feels_like": Number(297.21),
+                "grnd_level": Number(988),
+                "humidity": Number(75),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(296.83),
+                "temp_kf": Number(0),
+                "temp_max": Number(296.83),
+                "temp_min": Number(296.83)
             },
-            "visibility": 10000,
-            "pop": 0.58,
-            "rain": {
-                "3h": 1.07
+            "pop": Number(0),
+            "sys": Object {
+                "pod": String("d")
             },
-            "sys": {
-                "pod": "d"
-            },
-            "dt_txt": "2023-06-04 00:00:00"
-        },
-        {
-            "dt": 1685847600,
-            "main": {
-                "temp": 295.52,
-                "feels_like": 295.98,
-                "temp_min": 295.52,
-                "temp_max": 295.52,
-                "pressure": 1010,
-                "sea_level": 1010,
-                "grnd_level": 986,
-                "humidity": 83,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04d"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 27
+            "wind": Object {
+                "deg": Number(33),
+                "gust": Number(2.95),
+                "speed": Number(2.58)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(99)
             },
-            "wind": {
-                "speed": 2.99,
-                "deg": 63,
-                "gust": 3.9
+            "dt": Number(1685901600),
+            "dt_txt": String("2023-06-04 18:00:00"),
+            "main": Object {
+                "feels_like": Number(301.88),
+                "grnd_level": Number(988),
+                "humidity": Number(59),
+                "pressure": Number(1012),
+                "sea_level": Number(1012),
+                "temp": Number(300.71),
+                "temp_kf": Number(0),
+                "temp_max": Number(300.71),
+                "temp_min": Number(300.71)
             },
-            "visibility": 3814,
-            "pop": 0.78,
-            "rain": {
-                "3h": 1.8
+            "pop": Number(0.01),
+            "sys": Object {
+                "pod": String("d")
             },
-            "sys": {
-                "pod": "n"
-            },
-            "dt_txt": "2023-06-04 03:00:00"
-        },
-        {
-            "dt": 1685858400,
-            "main": {
-                "temp": 294.16,
-                "feels_like": 294.69,
-                "temp_min": 294.16,
-                "temp_max": 294.16,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 986,
-                "humidity": 91,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 501,
-                    "main": "Rain",
-                    "description": "moderate rain",
-                    "icon": "10n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("overcast clouds"),
+                    "icon": String("04d"),
+                    "id": Number(804),
+                    "main": String("Clouds")
                 }
             ],
-            "clouds": {
-                "all": 52
+            "wind": Object {
+                "deg": Number(348),
+                "gust": Number(0.9),
+                "speed": Number(0.77)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(90)
             },
-            "wind": {
-                "speed": 3.25,
-                "deg": 113,
-                "gust": 5.66
+            "dt": Number(1685912400),
+            "dt_txt": String("2023-06-04 21:00:00"),
+            "main": Object {
+                "feels_like": Number(303.16),
+                "grnd_level": Number(987),
+                "humidity": Number(52),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(302.22),
+                "temp_kf": Number(0),
+                "temp_max": Number(302.22),
+                "temp_min": Number(302.22)
             },
-            "visibility": 10000,
-            "pop": 1,
-            "rain": {
-                "3h": 3.52
+            "pop": Number(0.31),
+            "rain": Object {
+                "3h": Number(0.32)
             },
-            "sys": {
-                "pod": "n"
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-04 06:00:00"
-        },
-        {
-            "dt": 1685869200,
-            "main": {
-                "temp": 293.52,
-                "feels_like": 294.07,
-                "temp_min": 293.52,
-                "temp_max": 293.52,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 94,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 501,
-                    "main": "Rain",
-                    "description": "moderate rain",
-                    "icon": "10n"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(21),
+                "gust": Number(1.37),
+                "speed": Number(1.27)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(95)
             },
-            "wind": {
-                "speed": 2.4,
-                "deg": 114,
-                "gust": 3.37
+            "dt": Number(1685923200),
+            "dt_txt": String("2023-06-05 00:00:00"),
+            "main": Object {
+                "feels_like": Number(297.86),
+                "grnd_level": Number(985),
+                "humidity": Number(78),
+                "pressure": Number(1009),
+                "sea_level": Number(1009),
+                "temp": Number(297.35),
+                "temp_kf": Number(0),
+                "temp_max": Number(297.35),
+                "temp_min": Number(297.35)
             },
-            "visibility": 10000,
-            "pop": 1,
-            "rain": {
-                "3h": 5.93
+            "pop": Number(0.5),
+            "rain": Object {
+                "3h": Number(1.33)
             },
-            "sys": {
-                "pod": "n"
+            "sys": Object {
+                "pod": String("d")
             },
-            "dt_txt": "2023-06-04 09:00:00"
-        },
-        {
-            "dt": 1685880000,
-            "main": {
-                "temp": 294.58,
-                "feels_like": 295.08,
-                "temp_min": 294.58,
-                "temp_max": 294.58,
-                "pressure": 1011,
-                "sea_level": 1011,
-                "grnd_level": 987,
-                "humidity": 88,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10d"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 100
+            "wind": Object {
+                "deg": Number(191),
+                "gust": Number(4.03),
+                "speed": Number(2.8)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(22)
             },
-            "wind": {
-                "speed": 1.42,
-                "deg": 149,
-                "gust": 1.63
+            "dt": Number(1685934000),
+            "dt_txt": String("2023-06-05 03:00:00"),
+            "main": Object {
+                "feels_like": Number(295.63),
+                "grnd_level": Number(986),
+                "humidity": Number(81),
+                "pressure": Number(1010),
+                "sea_level": Number(1010),
+                "temp": Number(295.25),
+                "temp_kf": Number(0),
+                "temp_max": Number(295.25),
+                "temp_min": Number(295.25)
             },
-            "visibility": 10000,
-            "pop": 1,
-            "rain": {
-                "3h": 2.03
+            "pop": Number(0.48),
+            "rain": Object {
+                "3h": Number(1.03)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-04 12:00:00"
-        },
-        {
-            "dt": 1685890800,
-            "main": {
-                "temp": 297.96,
-                "feels_like": 298.4,
-                "temp_min": 297.96,
-                "temp_max": 297.96,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 73,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 91
+            "wind": Object {
+                "deg": Number(75),
+                "gust": Number(3.21),
+                "speed": Number(2.84)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(48)
             },
-            "wind": {
-                "speed": 2.73,
-                "deg": 135,
-                "gust": 3.04
+            "dt": Number(1685944800),
+            "dt_txt": String("2023-06-05 06:00:00"),
+            "main": Object {
+                "feels_like": Number(292.65),
+                "grnd_level": Number(987),
+                "humidity": Number(94),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(292.23),
+                "temp_kf": Number(0),
+                "temp_max": Number(292.23),
+                "temp_min": Number(292.23)
             },
-            "visibility": 10000,
-            "pop": 0.16,
-            "sys": {
-                "pod": "d"
+            "pop": Number(0.84),
+            "rain": Object {
+                "3h": Number(1.58)
             },
-            "dt_txt": "2023-06-04 15:00:00"
-        },
-        {
-            "dt": 1685901600,
-            "main": {
-                "temp": 301.11,
-                "feels_like": 302.54,
-                "temp_min": 301.11,
-                "temp_max": 301.11,
-                "pressure": 1012,
-                "sea_level": 1012,
-                "grnd_level": 988,
-                "humidity": 60,
-                "temp_kf": 0
+            "sys": Object {
+                "pod": String("n")
             },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
                 }
             ],
-            "clouds": {
-                "all": 84
+            "wind": Object {
+                "deg": Number(209),
+                "gust": Number(4.17),
+                "speed": Number(2.76)
+            }
+        }, Object {
+            "clouds": Object {
+                "all": Number(81)
             },
-            "wind": {
-                "speed": 2.33,
-                "deg": 174,
-                "gust": 2.64
+            "dt": Number(1685955600),
+            "dt_txt": String("2023-06-05 09:00:00"),
+            "main": Object {
+                "feels_like": Number(292.37),
+                "grnd_level": Number(987),
+                "humidity": Number(93),
+                "pressure": Number(1011),
+                "sea_level": Number(1011),
+                "temp": Number(292),
+                "temp_kf": Number(0),
+                "temp_max": Number(292),
+                "temp_min": Number(292)
             },
-            "visibility": 10000,
-            "pop": 0.76,
-            "rain": {
-                "3h": 1.62
+            "pop": Number(0.71),
+            "rain": Object {
+                "3h": Number(0.83)
             },
-            "sys": {
-                "pod": "d"
+            "sys": Object {
+                "pod": String("n")
             },
-            "dt_txt": "2023-06-04 18:00:00"
+            "visibility": Number(10000),
+            "weather": Array [Object {
+                    "description": String("light rain"),
+                    "icon": String("10n"),
+                    "id": Number(500),
+                    "main": String("Rain")
+                }
+            ],
+            "wind": Object {
+                "deg": Number(91),
+                "gust": Number(2.29),
+                "speed": Number(2.18)
+            }
         }
     ],
-    "city": {
-        "id": 4720833,
-        "name": "Prosper",
-        "coord": {
-            "lat": 33.2362,
-            "lon": -96.8011
-        },
-        "country": "US",
-        "population": 9423,
-        "timezone": -18000,
-        "sunrise": 1685445588,
-        "sunset": 1685496600
-    }
+    "message": Number(0)
 }
