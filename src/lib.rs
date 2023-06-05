@@ -18,8 +18,12 @@ pub fn get_env(key: String) -> String {
     }
 }
 
-#[test]
-fn get_env_test() {
-    let test_key = get_env("TEST".to_string());
-    assert_eq!(test_key, "TEST123");
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn get_env_test() {
+        let test_key = get_env("TEST".to_string());
+        assert_eq!(test_key, "TEST123");
+    }
 }
