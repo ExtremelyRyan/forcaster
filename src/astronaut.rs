@@ -26,6 +26,8 @@ pub fn _sample_blocked_api_call_astronauts() -> Result<(), anyhow::Error> {
     let n = n.as_u64().unwrap_or_default() as usize;
     println!("number of astronauts in space: {n}");
 
+    println!("additional stupid print statement");
+    
     for x in 0..n {
         let name = resp["people"][x]["name"].to_string();
         let craft = resp["people"][x]["craft"].to_string();
